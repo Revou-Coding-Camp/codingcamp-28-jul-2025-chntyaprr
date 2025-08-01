@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Caveat+Brush&family=Chewy&display=swap');
+body {
+    font-family:'arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(231, 95, 95);
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    background-image: url('../images/logot.png');
+    background-size: cover;
+    background-position: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+     margin-left:auto px;
+}
+
+.banner-img {
+    background-image: url('../images/bannert.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+aside {
+    align-content: center;
+    justify-items: center;
+}
